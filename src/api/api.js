@@ -50,7 +50,11 @@ const urlConfig = {
     getMyStockCodeList:`${urlEnv}/api/redis/getMyStockCodeList?`,//历史战绩
     rankInfo:`${urlEnv}/api/account/rank/info?`,//段位
     userInfos:`${urlEnv}/api/account/rank/userInfo?`,//我的排名
-    rankList:`${urlEnv}/api/account/rank/redis/rankingList?`//排行榜列表
+    rankList:`${urlEnv}/api/account/rank/redis/rankingList?`,//排行榜列表
+    personReaUserRank:`${urlEnv}/api/real/mongo/personReaUserRank?`,//奖金榜个人排名
+    matchRealTotalRanking:`${urlEnv}/api/real/mongo/matchRealTotalRanking?`,//奖金榜总排名
+    matchReaUserRanking:`${urlEnv}/api/real/mongo/matchReaUserRanking?`,//最新奖金接口
+    aggregatedYieldRate:`${urlEnv}/api/redis/aggregatedYieldRate?`//双期排行榜
     //其他页面
 
 }
